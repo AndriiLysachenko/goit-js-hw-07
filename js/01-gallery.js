@@ -1,5 +1,5 @@
 import { galleryItems } from './gallery-items.js';
-
+// Change code below this line
 //import * as basicLightbox from 'basiclightbox';
 
 //console.log(galleryItems);
@@ -54,7 +54,7 @@ function onListCkick(event) {
         }
       })
     },
-  
+   
     onClose: (instance) => { 
       document.removeEventListener('keydown', () => { });
       list.removeEventListener('click', () => { });
@@ -63,4 +63,3 @@ function onListCkick(event) {
 
   instance.show();
 }
-
